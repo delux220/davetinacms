@@ -587,7 +587,9 @@ const ButtonStyles = css`
   display: inline-block;
   position: relative;
   line-height: 2.25rem;
-  font-size: 1rem;
+  font-size: .68rem;
+  fontt-weight:700;
+  color: white;
   padding: 0 1rem;
   text-align: center;
   text-decoration: none;
@@ -595,14 +597,13 @@ const ButtonStyles = css`
   border-radius: ${props => props.theme.radius.small};
   border: none;
   transition: all 150ms ${props => props.theme.easing};
-  color: ${props => props.theme.color.foreground};
-  background-color: ${props => props.theme.color.background};
-  border-bottom: 3px solid
+  background-color: ${props => props.theme.color.secondary};
+  border-bottom: 0px solid
     ${props => transparentize(0.8, props.theme.color.black)};
   cursor: pointer;
   z-index: 1;
   box-shadow: 0 3px 4px ${props => transparentize(0.8, props.theme.color.black)};
-  text-shadow: 0 1px 1px
+  text-shadow: 0 0px 0px
     ${props => transparentize(0.5, props.theme.color.black)};
 
   &:after,
@@ -654,7 +655,7 @@ const ButtonStyles = css`
     p.primary &&
     css`
       background-color: ${props => props.theme.color.primary};
-      color: ${props => props.theme.color.primaryContrast};
+      color: ${props => props.theme.color.white};
     `};
 `
 
