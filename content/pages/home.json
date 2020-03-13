@@ -7,8 +7,8 @@
     }
   ],
   "hero": {
-    "headline": "Welcome to Tina Grande.",
-    "textline": "This template is filled with sample content to get you started.",
+    "headline": "Hi, my name is Dave Luke",
+    "textline": "I'm a web developer + painter + puggle dad",
     "ctas": [
       {
         "label": "Read The Blog",
@@ -23,7 +23,7 @@
         "primary": false
       }
     ],
-    "image": "../images/cafe-2.jpg",
+    "image": "../images/undefined",
     "large": true
   },
   "displayTitle": false,
